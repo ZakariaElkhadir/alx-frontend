@@ -20,8 +20,7 @@
     --line-height-base: 1.5;
     --line-height-big: 1.8;
     --section-header-align: center;
-    --section-title-margin: 0;
-    --section-title-color: var(--color-black)
+    --section-tagline-transform: uppercase;
 
 }
 html{
@@ -47,12 +46,10 @@ h1, h2, h3, h4, h5,h6{
     text-align: var(--section-header-align);
 
 }
-.section-title{
+.section-tagline{
     font-family: var(--font-family-title);
-    font-size: var(--font-size-xx-large);
+    text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
-    margin: var(--section-title-margin);
-    color: var(--section-title-color);
 }
 .card-category, .section-tagline{
     color: var(--color-primary);
