@@ -207,9 +207,11 @@ ul.row {
     color: var(--text-color);
 }
 
-.social-link,
-.social-link svg {
+.social-link {
     display: block;
+}
+.social-link > svg{
+    fill: var(--text-color);
 }
 
 .social-link svg {
