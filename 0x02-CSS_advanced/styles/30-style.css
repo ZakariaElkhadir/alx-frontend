@@ -453,15 +453,16 @@ ul.row {
         position: relative;
         overflow: hidden;
     }
-    .card-work .card-image{
+    .card-work .card-image img{
         height: 30rem;
         width: 100%;
         object-fit: cover;
-        bottom: 0;
+        vertical-align: bottom;
     }
     .card-work .card-inner{
         position: absolute;
         top: -0.1rem;
+        left: -0.1rem;
         right: -0.1rem;
         z-index: 1;
     }
@@ -475,14 +476,16 @@ ul.row {
      height: 100%;
      position: relative;
     }
-    .card-title a,
-    .card-work a {
+    
+    .card-work 
+    .card-title a {
         display: block;
         text-decoration: none;
         padding-top: 45%;
     }
-    .card-title::after,
-    .card-work::after {
+    .card-work
+    .card-title a::after
+     {
         content: "";
         position: absolute;
         top: 0;
