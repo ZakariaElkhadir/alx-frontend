@@ -453,14 +453,13 @@ ul.row {
     .section-hero{
         width: 90rem;
         height: auto;
-        background-size: 100% auto;
+        background-size: 90rem auto;
     }
     .section-hero .section-title{
         margin-bottom: 5rem;
     }
     .section-hero .section-inner{
         padding: 10rem 40rem 2rem 0;
-
     }
     
     ul.row {
